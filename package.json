@@ -1,5 +1,5 @@
 {
-  "name": "node-typescript",
+  "name": "starter-node-typescript",
   "scripts": {
     "build": "rimraf ./dist && tsc -p ./src/tsconfig.json",
     "dev": "ts-node ./src",
