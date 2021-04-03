@@ -14,7 +14,8 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
-    "noEmit": true,
+    "noEmit": false,
+    "outDir": "./dist",
     "removeComments": true,
     "resolveJsonModule": true,
     "rootDir": "./",
@@ -22,13 +23,11 @@
     "strict": true
   },
   "include": [
-    "./*.ts"
+    "./src/**/*.ts"
   ],
   "exclude": [
     "./node_modules",
-    "./dist",
-    "./src",
-    "./tests"
+    "./dist"
   ],
   "ts-node": {
     "files": true
