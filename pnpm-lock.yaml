@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/figlet': ^1.5.0
   '@types/jest': ^26.0.22
   '@types/node': ^14.14.37
   '@types/rimraf': ^3.0.0
@@ -14,6 +15,7 @@ specifiers:
   eslint-plugin-jsx-a11y: ^6.4.1
   eslint-plugin-react: ^7.23.2
   eslint-plugin-react-hooks: ^4.2.0
+  figlet: ^1.5.0
   jest: ^26.6.3
   prettier: ^2.2.1
   rimraf: ^3.0.2
@@ -21,7 +23,11 @@ specifiers:
   ts-node: ^9.1.1
   typescript: ^4.2.4
 
+dependencies:
+  figlet: 1.5.0
+
 devDependencies:
+  '@types/figlet': 1.5.0
   '@types/jest': 26.0.22
   '@types/node': 14.14.37
   '@types/rimraf': 3.0.0
@@ -657,6 +663,10 @@ packages:
     resolution: {integrity: sha512-Vs0hm0vPahPMYi9tDjtP66llufgO3ST16WXaSTtDGEl9cewAl3AibmxWw6TINOqHPT9z0uABKAYjT9jNSg4npw==}
     dependencies:
       '@babel/types': 7.13.0
+    dev: true
+
+  /@types/figlet/1.5.0:
+    resolution: {integrity: sha512-LffgrNrwx2bs52gXSuycuMSbxwnVgNeWJAEyo8dNnDcIqNCZ13zNJeoNU2IWs62EeUORIj34zkEN7oeMrWdJ8Q==}
     dev: true
 
   /@types/glob/7.1.3:
@@ -2183,6 +2193,11 @@ packages:
     dependencies:
       bser: 2.1.1
     dev: true
+
+  /figlet/1.5.0:
+    resolution: {integrity: sha512-ZQJM4aifMpz6H19AW1VqvZ7l4pOE9p7i/3LyxgO2kp+PO/VcDYNqIHEMtkccqIhTXMKci4kjueJr/iCQEaT/Ww==}
+    engines: {node: '>= 0.4.0'}
+    dev: false
 
   /file-entry-cache/6.0.1:
     resolution: {integrity: sha512-7Gps/XWymbLk2QLYK4NzpMOrYjMhdIxXuIvy2QBsLE6ljuodKvdkWs/cpyJJ3CVIVpH0Oi1Hvg1ovbMzLdFBBg==}
