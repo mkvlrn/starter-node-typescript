@@ -2,8 +2,7 @@
   "collectCoverage": true,
   "collectCoverageFrom": [
     "src/**/*.ts",
-    "!**/node_modules/**",
-    "!**/vendor/**"
+    "!src/index.ts"
   ],
   "coverageDirectory": "tests/coverage",
   "preset": "ts-jest",
