@@ -1,7 +1,6 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@types/figlet': ^1.5.0
   '@types/jest': ^26.0.22
   '@types/node': ^14.14.41
   '@types/rimraf': ^3.0.0
@@ -23,7 +22,6 @@ specifiers:
   typescript: ^4.2.4
 
 devDependencies:
-  '@types/figlet': 1.5.0
   '@types/jest': 26.0.22
   '@types/node': 14.14.41
   '@types/rimraf': 3.0.0
@@ -659,10 +657,6 @@ packages:
     resolution: {integrity: sha512-Vs0hm0vPahPMYi9tDjtP66llufgO3ST16WXaSTtDGEl9cewAl3AibmxWw6TINOqHPT9z0uABKAYjT9jNSg4npw==}
     dependencies:
       '@babel/types': 7.13.0
-    dev: true
-
-  /@types/figlet/1.5.0:
-    resolution: {integrity: sha512-LffgrNrwx2bs52gXSuycuMSbxwnVgNeWJAEyo8dNnDcIqNCZ13zNJeoNU2IWs62EeUORIj34zkEN7oeMrWdJ8Q==}
     dev: true
 
   /@types/glob/7.1.3:
